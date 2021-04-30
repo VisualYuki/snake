@@ -1,0 +1,30 @@
+{
+  "name": "shake",
+  "version": "1.0.0",
+  "devDependencies": {
+    "copy-webpack-plugin": "^8.1.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "less": "^4.1.1",
+    "less-loader": "^8.1.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "node_env": "^0.0.3",
+    "node-env": "^0.1.6",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.0.1",
+    "source-map": "^0.6.1",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development webpack serve --mode development",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

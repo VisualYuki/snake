@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.board {
+  display: grid;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  width: 40px;
+  height: 40px;
+  background: goldenrod;
+}
+.cell_snake {
+  background: green;
+}
+.cell_target {
+  background: red;
+}
+
+/*# sourceMappingURL=main.css.map*/

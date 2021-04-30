@@ -1,0 +1,9 @@
+html
+    head
+    body
+        .page
+            #board.board
+                //-for(let i = 0 ; i < 4; i++)
+                    -for(let j = 0 ; j < 4; j++)
+                        .cell(data-i=`${i}` data-j=`${j}`)
+
